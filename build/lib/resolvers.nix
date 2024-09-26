@@ -6,9 +6,10 @@ let
     attrNames
     elemAt
     genericClosure
-    match
     genAttrs
     ;
+  inherit (builtins)
+    match;
 
 in
 {
